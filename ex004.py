@@ -1,0 +1,18 @@
+value = input('Digite algo: ')
+
+print('Tipo: ', type(value))
+
+print("\033[33m-----------------------------------\033[m")
+print(f'É alfanumérico? {value.isalnum()}')
+print(f'É alfabético? {value.isalpha()}')
+print(f'Só tem letras maiúsculas? {value.isupper()}')
+print(f'É numérico? {value.isnumeric()}')
+print(f'Pertence a tabela ASCII? {value.isascii()}')
+print(f'É decimal? {value.isdecimal}')
+print(f'É um dígito? {value.isdigit()}')
+print(f'É um identificador? {value.isidentifier()}')
+print(f'Só tem letras minúsculas? {value.islower()}')
+print(f'É possível imprimir? {value.isprintable()}')
+print(f'É um espaço? {value.isspace()}')
+print(f'É capitalizado? {value.istitle()}')
+print("\033[33m-----------------------------------")
