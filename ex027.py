@@ -1,0 +1,5 @@
+nome = input('Digite seu nome completo: ')
+print(nome.split()[0])
+nome = nome.split()
+tam_nome = len(nome)
+print(nome[tam_nome-1])
